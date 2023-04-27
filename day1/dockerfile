@@ -1,0 +1,11 @@
+FROM python:3.9
+
+RUN pip install pandas
+
+# will create a app folder in docker
+WORKDIR /app
+
+# copy the file from local to docker, the first one is local, the second one is docker
+COPY pipeline.py pipeline.py
+
+ENTRYPOINT [ "python", "pipeline.py" ]
