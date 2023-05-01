@@ -1,0 +1,18 @@
+# Use Python 3.9 as the base image
+FROM python:3.9
+
+# Ensure the package list is up-to-date.
+RUN apt-get update && apt-get install -y wget
+
+# Install required Python packages
+RUN pip install pandas sqlalchemy psycopg2
+
+# Create a /app folder in the Docker image
+WORKDIR /app
+
+# Copy the file from local to the Docker image, the first one is local, the second one is Docker
+### make sure cd to the same directory as the Dockerfile
+COPY ingest-data.py ingest-data.py
+
+# Set the entrypoint for the Docker container
+ENTRYPOINT [ "python", "ingest-data.py" ]
