@@ -1,8 +1,7 @@
-/day2-Postgres/ny_taxi_postgres_data
-/day3-pipeline/ny_taxi_pipeline_data
+/day2-Postgres/ny_taxi_postgres_data/
+/day3-pipeline/ny_taxi_pipeline_data/
 .obsidian/
 .idea/
-yellow_tripdata_2021-01.csv
-output.csv.gz
 .gitignore
+/Dataset/
 
