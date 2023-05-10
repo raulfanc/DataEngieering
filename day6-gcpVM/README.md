@@ -1,3 +1,5 @@
+# Day 6 GCP
+
 #### 1. Generating SSH keys refer to [link](https://cloud.google.com/compute/docs/connect/create-ssh-keys#create_an_ssh_key_pair)
 #### 2. Creating a `virtual machine` on GCP --> `Metadata`(side bar) --> add `SSH key` (`cat` the public key in bash)
 ![](../Pictures/Pasted%20image%2020230505105036.png)

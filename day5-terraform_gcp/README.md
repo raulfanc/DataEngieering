@@ -1,4 +1,4 @@
-# Terraform
+# Day 5. Terraform
 
 ## 1. What is Terraform?
 1. Used for provisioning infrastructure resources

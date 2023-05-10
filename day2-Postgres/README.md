@@ -1,4 +1,4 @@
-# batch-loading data into Postgres
+# day 2. batch-loading data into Postgres
 
 Apache has guide to set up docker composer as per below, according to [docker-compose](../Documents/docker-compose_2.3.4.yaml)
 ```yaml

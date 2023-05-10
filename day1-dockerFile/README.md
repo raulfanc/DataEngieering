@@ -1,4 +1,4 @@
-### Docker + Postgres
+### Day 1. Docker + Postgres
 
 #### 1. why do we need docker?
 Docker provides container solutions, means we can create multiple containised systems to host different services. 

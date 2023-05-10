@@ -1,4 +1,4 @@
-## Python Script 
+## Day 3. Python Script 
 #### 1. use day2's code to include into the new pipeline.py, so it can load data in one go.
 ```terminal
 jupyter nbconvert --to script day2-code.ipynb 
