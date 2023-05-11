@@ -23,7 +23,7 @@ df.head(n=0).to_sql("zone_lookup", con=engine, if_exists='replace')
 
 #### 2. jupyter notebook to load data
 [zoneTable_load.ipynb](zoneTable_load.ipynb) to load the above CSV into the containised Postgres DB
-![](../Pictures/Pasted%20image%2020230501184810.png)
+![](../../Pictures/Pasted%20image%2020230501184810.png)
 
 #### 3. run SQL quries
 1. join 2 tables and make the location ID meaningful

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  pg_prefect:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: test1234
+    ports:
+      - 5050:80
+    networks:
+      - pg-network
+
+  postgres_prefect:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ny_taxi_postgres_prefect
+    ports:
+      - 5432:5432
+#    volumes:
+#      - <name of the data volume>:/var/lib/postgresql/data  # set your data volume name here.
+    networks:
+      - pg-network
+
+#volumes:
+#  postgres_data:
+
+networks:
+  pg-network:
