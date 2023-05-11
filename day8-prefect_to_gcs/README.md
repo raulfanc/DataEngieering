@@ -1,5 +1,5 @@
 
-- run postgre13 and pgadmin4 with docker-compose refer to [docker-compose.yaml](docker-compose.yaml)
+- run postgre13 and pgadmin4 with docker-compose refer to [docker-compose.yaml](docker-compose.yml)
 ```bash
 docker-compose up -d
 ```
