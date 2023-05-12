@@ -37,18 +37,18 @@ authentication when interacting with Google Cloud services. By enabling this API
 delete, and manage service account keys, as well as generate access tokens and sign JSON Web Tokens (JWTs) for
 authentication.
 
-**Question 1**: why do I need to enable this two?
-**Answer 1:** You need to enable these two APIs because they provide the necessary functionality to manage access control
+- **Question 1**: why do I need to enable this two?
+- **Answer 1:** You need to enable these two APIs because they provide the necessary functionality to manage access control
 and service account credentials within your project. These APIs allow you to automate tasks related to IAM and service
 accounts, making it easier to manage your project's security.
 
-**Question 2:** how much does they charge?
-**Answer 2:** The IAM API and the IAM Service Account Credentials API are both offered at no additional cost. However, you
+- **Question 2:** how much does they charge?
+- **Answer 2:** The IAM API and the IAM Service Account Credentials API are both offered at no additional cost. However, you
 should still monitor your overall Google Cloud usage to ensure you stay within your budget. You can find more details on
 Google Cloud's pricing page: https://cloud.google.com/pricing
 
-**Question 3:** what services in this GCP project will use these two APIs
-**Answer 3:** In your GCP project, any services that require authentication and access control will utilize these APIs. For
+- **Question 3:** what services in this GCP project will use these two APIs
+- **Answer 3:** In your GCP project, any services that require authentication and access control will utilize these APIs. For
 example, when you use Google Cloud Storage or BigQuery, you need to authenticate using service account credentials,
 which are managed through the IAM Service Account Credentials API. Similarly, when you want to grant or revoke access to
 resources in your project, you'll use the IAM API to manage the permissions.

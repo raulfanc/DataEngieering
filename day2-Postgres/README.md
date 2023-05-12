@@ -36,8 +36,8 @@ postgres:13
 ```
 - `postgres:13` the version of the `posgres` I'd like to run with.
 
-**question 1:** I am not a windows user, can I use `$(pwd)/ny_taxi_postgres_data` instead of the absolute path to my local folder? 
-**answer:** can use `$(pwd)/ny_taxi_postgres_data` to represent the absolute path of the `ny_taxi_postgres_data` folder in your current working directory. This is a convenient way.
+- **question 1:** I am not a windows user, can I use `$(pwd)/ny_taxi_postgres_data` instead of the absolute path to my local folder? 
+- **answer:** can use `$(pwd)/ny_taxi_postgres_data` to represent the absolute path of the `ny_taxi_postgres_data` folder in your current working directory. This is a convenient way.
 
 ```yaml
 docker run -it \
